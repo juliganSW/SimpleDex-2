@@ -1,7 +1,7 @@
 const { buildModule } = require("@nomicfoundation/hardhat-ignition/modules");
 
-const GreeterModule = buildModule("GreeterModule", (m) => {
-  const greet = m.contract("Greeter", ["Hola"]);
+const GreeterModule = buildModule("GreeterModule", (deployer) => {
+  const greet = deployer.contract("Greeter", ["Hola"]);
 
   return { greet };
 });

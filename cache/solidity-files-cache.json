@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/julian/ethJuli/SimpleDex-2/contracts/Greeter.sol": {
-      "lastModificationDate": 1733519100022,
-      "contentHash": "0b94d9bede4822598960e721d5fad311",
+      "lastModificationDate": 1733725532932,
+      "contentHash": "6e0bd62ae23a8bad7df9b19b09e4f9ef",
       "sourceName": "contracts/Greeter.sol",
       "solcConfig": {
         "version": "0.8.28",
