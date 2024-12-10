@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactuar con Greeter</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.0/dist/ethers.umd.min.js"></script>
+
+
+</head>
+<body>
+  <div class="container">
+    <h1>Interaccción con tu contrato Greeter</h1>
+    <button id="connect-button">Conectar con MetaMask 🦊</button>
+    <p id="account-status" class="status">No conectado</p>
+    <div class="card">
+      <div id="greeting-container">
+        <p id="current-greeting">Saludo actual: <span id="greeting">Cargando...</span></p>
+      </div>
+      <form id="change-greeting-form" style="display: none;">
+        <input type="text" id="new-greeting" placeholder="Nuevo saludo" required>
+        <button type="submit">Cambiar saludo</button>
+      </form>
+      <p id="status" class="status"></p>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
